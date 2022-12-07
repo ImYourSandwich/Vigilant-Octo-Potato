@@ -1,2 +1,2 @@
-ceci est un document texte comme un autre.
+Ceci est un document texte comme un autre.
 Rien à signaler.
