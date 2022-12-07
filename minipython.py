@@ -6,3 +6,5 @@ print("This is my list of fruits")
 
 for x in fruits:
     print(x)
+
+    
