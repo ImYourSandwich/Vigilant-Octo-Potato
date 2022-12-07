@@ -7,9 +7,9 @@ from level import Level
 pygame.init()
 screen_width = 1200
 screen_height = 700
-screen = pygame.display.set_mode((screen_width, screen_height))
+screen = pygame.display.set_mode((screen_width,screen_height))
+level = Level(level_map,screen)
 clock = pygame.time.Clock()
-level = Level(level_map, screen)
 
 while True:
     for event in pygame.event.get():
