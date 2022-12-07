@@ -7,8 +7,9 @@ pygame.init()
 screen_width = 1200
 screen_height = 700
 screen = pygame.display.set_mode((screen_width,screen_height))
-clock = pygame.time.Clock()
 level = Level(level_map,screen)
+clock = pygame.time.Clock()
+
 
 while True:
     for event in pygame.event.get():
@@ -20,4 +21,4 @@ while True:
     level.run()
     
     pygame.display.update()
-    clock.tick(60)
+    clock.tick(10)
